@@ -1,0 +1,67 @@
+body{
+	background-image: url(bak.jpg); 
+	width: 100%; 
+	background-attachment: fixed;
+
+
+} 
+nav ul li:hover{
+	background-color: goldenrod; 
+}
+.selected{
+	background-color: goldenrod;
+}
+
+#row{
+	margin-left: 5%;
+	width: 90%;
+}
+#kinda{
+	margin-left: 5%;
+	width: 90%;
+}
+p{
+	font-size:125%;  
+	font-family: Georgia,sans-serif,serif;
+} 
+
+
+#carousel{
+	width: 90%; 
+	margin-left: 5%;       
+	margin-top: 0.5%;
+} 
+
+nav{
+	width: 90%; 
+	margin-left: 5%;  
+} 
+nav li{
+	font-size: 20px;
+}
+#text{
+	width: 90%; 
+	margin-left: 5%; 
+	border: 1.5px goldenrod solid;
+	border-radius: 0.5%;
+	margin-top: -1%;
+	background-color:black; 
+	color: white; 
+	font-family:Georgia;
+	text-align: center; 
+
+} 
+
+.Texto{
+	color: black;
+}
+
+
+footer{
+	width: 90%; 
+	margin-left:5%; 
+	background-color: black; 
+	text-align: center; 
+	color: white; 
+	margin-top: 0.25%;
+} 

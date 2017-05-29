@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:63048/boka.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hotel gowad</title>
+		<link href="./Hotel gowad_files/bootstrap.min.css" rel="stylesheet"> 
+		<link href="./Hotel gowad_files/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+		<link href="./Hotel gowad_files/hotel.css" rel="stylesheet">
+
+
+
+
+	</head>
+
+	<body>
+
+		<div id="carousel">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="./Hotel gowad_files/hotelbild2.jpg" alt="gowad" style="width:100%;">
+					</div>
+
+					<div class="item">
+						<img src="./Hotel gowad_files/rum.jpg" alt="rabies" style="width:100%;">
+					</div>
+
+					<div class="item">
+						<img src="./Hotel gowad_files/kök.jpg" alt="nedamanzo" style="width:100%;">
+					</div>
+
+					<div class="item">
+						<img src="./Hotel gowad_files/konfe.jpg" alt="Flow" style="width:100%;">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="http://127.0.0.1:63048/boka.html#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="http://127.0.0.1:63048/boka.html#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="http://127.0.0.1:63048/startsida.html" style="color:white; ">Startsida</a></li>
+						<li><a href="http://127.0.0.1:63048/hitta.html" style="color:white;">Hitta</a></li>
+						<li><a href="http://127.0.0.1:63048/kontakt.html" style="color:white;">kontakt</a></li>
+						<li><a href="http://127.0.0.1:63048/boka.html" style="color:white;" class="selected">boka</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav> 
+		<div id="text">
+			<div class="container-fluid">
+				<h1>Boka</h1>
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Namn:</label>
+						<div class="col-sm-4">
+							<input class="form-control" id="email" placeholder="Namn">
+						</div>
+
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Id-kort:</label>
+						<div class="col-sm-4">
+							<input class="form-control" id="email" placeholder="Id">
+						</div>
+
+					</div> 
+					
+					
+					<div class="form-group">
+					
+						<input size="16" type="text" value="2012-06-15 14:45" readonly="" class="form_datetime"> 
+						
+						<label class="control-label col-sm-4" for="email">Id-kort:</label>
+						<div class="col-sm-0.125">
+					<script type="text/javascript">
+								$(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii'});
+					</script>
+						
+					</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Vuxna:</label>
+						<div class="col-sm-1">
+							<select class="form-control" id="rooms">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>	
+							</select>
+						</div>
+
+					</div> 
+
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Barn:</label>
+						<div class="col-sm-1">
+							<select class="form-control" id="rooms">
+								<option>0</option>	
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>	
+							</select>
+						</div>
+
+					</div> 
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Rum:</label>
+						<div class="col-sm-1">
+							<select class="form-control" id="rooms">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+
+							</select>
+						</div>
+
+					</div>
+
+					<div class="col-sm-offset-4 col-sm-6">
+						<button type="submit" class="btn btn-default">Skicka</button>
+					</div>    
+
+
+
+
+				</form>
+
+
+			</div>
+		</div>
+
+		<footer>
+			<p>Adress:Ibnel.Khalb gatan</p>
+		</footer>
+		<!--jQuery (necessary for Bootstrap's javascript plugins) --> 
+		<script src="./Hotel gowad_files/jquery.min.js"></script>
+		<script type="text/javascript" src="./Hotel gowad_files/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed --> 
+		<script type="text/javascript">
+			$('.form_datetime').datetimepicker({
+				//language:  'fr',
+				weekStart: 1,
+				todayBtn:  1,
+				autoclose: 1,
+				todayHighlight: 1,
+				startView: 2,
+				forceParse: 0,
+				showMeridian: 1
+			});
+			$('.form_date').datetimepicker({
+				language:  'fr',
+				weekStart: 1,
+				todayBtn:  1,
+				autoclose: 1,
+				todayHighlight: 1,
+				startView: 2,
+				minView: 2,
+				forceParse: 0
+			});
+			$('.form_time').datetimepicker({
+				language:  'fr',
+				weekStart: 1,
+				todayBtn:  1,
+				autoclose: 1,
+				todayHighlight: 1,
+				startView: 1,
+				minView: 0,
+				maxView: 1,
+				forceParse: 0
+			});
+		</script><div class="datetimepicker datetimepicker-dropdown-bottom-right dropdown-menu" style="left: 873.5px; z-index: 1010;"><div class="datetimepicker-minutes" style="display: none;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="glyphicon icon-arrow-left"></i></th><th colspan="5" class="switch">15 June 2012</th><th class="next" style="visibility: visible;"><i class="glyphicon icon-arrow-right"></i></th></tr></thead><tbody><tr><td colspan="7"><fieldset class="minute"><legend>PM</legend><span class="minute">2:00</span><span class="minute">2:05</span><span class="minute">2:10</span><span class="minute">2:15</span><span class="minute">2:20</span><span class="minute">2:25</span><span class="minute">2:30</span><span class="minute">2:35</span><span class="minute">2:40</span><span class="minute active">2:45</span><span class="minute">2:50</span><span class="minute">2:55</span></fieldset></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr><tr><th colspan="7" class="clear" style="display: none;">Clear</th></tr></tfoot></table></div><div class="datetimepicker-hours" style="display: none;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="glyphicon icon-arrow-left"></i></th><th colspan="5" class="switch">15 June 2012</th><th class="next" style="visibility: visible;"><i class="glyphicon icon-arrow-right"></i></th></tr></thead><tbody><tr><td colspan="7"><fieldset class="hour"><legend>AM</legend><span class="hour hour_am">12</span><span class="hour hour_am">1</span><span class="hour hour_am">2</span><span class="hour hour_am">3</span><span class="hour hour_am">4</span><span class="hour hour_am">5</span><span class="hour hour_am">6</span><span class="hour hour_am">7</span><span class="hour hour_am">8</span><span class="hour hour_am">9</span><span class="hour hour_am">10</span><span class="hour hour_am">11</span></fieldset><fieldset class="hour"><legend>PM</legend><span class="hour hour_pm">12</span><span class="hour hour_pm">1</span><span class="hour active hour_pm">2</span><span class="hour hour_pm">3</span><span class="hour hour_pm">4</span><span class="hour hour_pm">5</span><span class="hour hour_pm">6</span><span class="hour hour_pm">7</span><span class="hour hour_pm">8</span><span class="hour hour_pm">9</span><span class="hour hour_pm">10</span><span class="hour hour_pm">11</span></fieldset></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr><tr><th colspan="7" class="clear" style="display: none;">Clear</th></tr></tfoot></table></div><div class="datetimepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="glyphicon icon-arrow-left"></i></th><th colspan="5" class="switch">June 2012</th><th class="next" style="visibility: visible;"><i class="glyphicon icon-arrow-right"></i></th></tr><tr><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th><th class="dow">Su</th></tr></thead><tbody><tr><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td></tr><tr><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day">10</td></tr><tr><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day active">15</td><td class="day">16</td><td class="day">17</td></tr><tr><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td></tr><tr><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td></tr><tr><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr><tr><th colspan="7" class="clear" style="display: none;">Clear</th></tr></tfoot></table></div><div class="datetimepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="glyphicon icon-arrow-left"></i></th><th colspan="5" class="switch">2012</th><th class="next" style="visibility: visible;"><i class="glyphicon icon-arrow-right"></i></th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month active">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr><tr><th colspan="7" class="clear" style="display: none;">Clear</th></tr></tfoot></table></div><div class="datetimepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><i class="glyphicon icon-arrow-left"></i></th><th colspan="5" class="switch">2010-2019</th><th class="next" style="visibility: visible;"><i class="glyphicon icon-arrow-right"></i></th></tr></thead><tbody><tr><td colspan="7"><span class="year ">2009</span><span class="year">2010</span><span class="year">2011</span><span class="year active">2012</span><span class="year">2013</span><span class="year">2014</span><span class="year">2015</span><span class="year">2016</span><span class="year">2017</span><span class="year">2018</span><span class="year">2019</span><span class="year ">2020</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr><tr><th colspan="7" class="clear" style="display: none;">Clear</th></tr></tfoot></table></div></div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
