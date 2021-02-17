@@ -1,0 +1,61 @@
+/* LAYOUT start*/
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "section section"
+    "aside aside"
+    "footer footer"
+}
+
+@media screen and (min-width:600px) {
+  body {
+    grid-template-areas:
+      "header header"
+      "section aside"
+      "footer footer"
+  }
+}
+
+p {
+  /*färg på text*/
+}
+
+body {
+  background-color: gray;
+}
+
+header {
+  background-color: blue;
+  grid-area: header;
+}
+
+section {
+  background-color: yellow;
+  grid-area: section;
+}
+
+aside {
+  background-color: green;
+  grid-area: aside;
+}
+
+footer {
+  background-color: red;
+  grid-area: footer;
+}
+
+/*
+img#sea {
+  width: ;
+  max-width: ;
+}
+
+img#html {
+  width: ;
+  max-width: ;
+}*/
+/* LAYOUT END*/
+/*FORM start*/
+/*FORM end*/
